@@ -1,0 +1,40 @@
+footer{
+    background-color: #3a454e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e5e5e5;
+    width: 100%;
+    text-align: center;
+}
+.reference a{
+    text-decoration: #68d68a;
+    color: #68d68a;
+    font-size: 1.2em;
+}
+.info{
+    max-width: 500px;
+    padding: 20px 0px;
+}
+footer h1{
+    font-size: 2.3em;
+    text-decoration: underline;
+}
+.contact{
+    max-width: 500px;
+    height: 150px;
+}
+.contact a{
+    color: white;
+    font-size: 30px;
+    margin: 0px 12px;
+    transition: 500ms;
+}
+.contact a:hover{
+    font-size: 32px;
+    margin: 0px 8px;
+    transition: 500ms;
+    cursor: pointer;
+    color: #68d68a;
+}

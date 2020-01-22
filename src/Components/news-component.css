@@ -1,0 +1,82 @@
+.news-list{
+    width: 400px;
+    /* height: 300px; */
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(189, 188, 188);
+    margin: 20px 10px;
+    transition: 700ms;
+    cursor: pointer;
+}
+.news-list:hover{
+    background-color: rgb(252, 253, 253);
+    transition: 700ms;
+    box-shadow: 0px 0px 10px rgb(90, 90, 90);
+}
+.image{
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.heading-main{
+    padding: 10px;
+    font-family: 'Baskervville', serif;
+
+}
+.author{
+    margin: 0px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.title{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Baskervville', serif;
+
+}
+.description{
+    height: 150px;
+}
+
+
+.img-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+  /* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .9s ease;
+}
+
+  /* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+
+@media(max-width: 420px){
+    .news-list{
+        width: 350px;
+    }
+    .image{
+        width: 350px;
+    }
+}
+@media(max-width: 370px){
+    .news-list{
+        width: 320px;
+    }
+    .image{
+        width: 350px;
+    }
+}
+@media(max-width: 340px){
+    .news-list{
+        width: 280px;
+    }
+    .image{
+        width: 280px;
+    }
+}
