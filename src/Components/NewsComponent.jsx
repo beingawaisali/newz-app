@@ -14,7 +14,7 @@ const NewsComponent = (props) => {
 
                 <p className="description">{props.description}</p>
 
-                <a href={props.link} className="link">Read More</a>
+                <a href={props.link} className="link" target="_blank">Read More</a>
             </div>
 
         </div>
