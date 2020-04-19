@@ -10,16 +10,16 @@ const MobileMenuList = () => {
         <div className="mobile-menu-list" data-aos="fade" data-aos-duration="1000">
             <ul>
                     <li>
-                        <Link to="/" className="link">Recent News</Link>
+                        <Link to="/">Recent News</Link>
                     </li>
                     <li>
-                        <Link to="business-news" className="link">Business News</Link>
+                        <Link to="business-news">Business News</Link>
                     </li>
                     <li>
-                        <Link to="tech-news" className="link">Tech News</Link>
+                        <Link to="tech-news">Tech News</Link>
                     </li>
                     <li>
-                        <Link to="wall-street" className="link">Wall Street</Link>
+                        <Link to="wall-street">Wall Street</Link>
                     </li>
             </ul>
 

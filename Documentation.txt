@@ -1,0 +1,15 @@
+API Scene
+9f4facc956ea46a588bd624555af94e2
+
+News Categories
+1: Recent News
+2: Business News
+3: Tech News
+4: Wall Street
+
+UI Color Shades
+Background Color: #fbfcfd
+Border Color:     #e5e5e5
+Text Bottom :     #68d68a
+Botton Color :    #538ae4
+Text and footer : #3a454e

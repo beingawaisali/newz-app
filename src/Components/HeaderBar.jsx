@@ -1,8 +1,7 @@
 import React from 'react';
 import './header-bar.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSms } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
     BrowserRouter as Router,
@@ -13,7 +12,7 @@ const HeaderBar = (props) => {
     return (
         <div className="header-bar">
 
-            <ul>
+            <ul style={props.giveColor}>
                     <li>
                         <Link to="/home" className="link">Recent News</Link>
                     </li>
@@ -29,9 +28,9 @@ const HeaderBar = (props) => {
                     <i class="fas fa-bars" onClick={props.enableMenu}></i>
             </ul>
 
-            <div className="social-icon">
-                <FontAwesomeIcon icon={faSms} className="sms-icon" />
-                <a href={props.contact}>Contact</a>
+            <div className="mode-parent">
+                <FontAwesomeIcon icon={props.mode} className="mode-icon" onClick={props.switchMode} />
+                <p>{props.modeName}</p>
             </div>
 
         </div>

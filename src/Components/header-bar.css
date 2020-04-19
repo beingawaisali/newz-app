@@ -1,11 +1,15 @@
 .header-bar{
     width: 95%;
+    background-color: #ffffff;
     padding: 20px 2.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e5e5e5;
     box-shadow: 0px 0px 5px #e5e5e5;
+    position: fixed;
+    top:0;
+    z-index: 1;
 }
 
 .header-bar ul{
@@ -29,23 +33,24 @@
 .header-bar ul i{
     display: none;
 }
-.social-icon{
+.mode-parent{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 0px 15px;
+    margin: auto 25px;
     color:#3a454e;
     transition: 700ms;
     cursor: pointer;
 }
-.social-icon:hover{
+.mode-parent:hover{
     color: #538ae4;
     transition: 700ms;
 }
-.sms-icon{
-    font-size: 2.5em;
-    
+.mode-icon{
+    font-size: 2.4em;
+    border: 2px solid #3a454e;
+    padding: 4px;
+    border-radius: 50%;
 }
 
 .link{
